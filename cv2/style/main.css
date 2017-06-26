@@ -1,0 +1,171 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    overflow-x: hidden;
+/*    font-family: 'Roboto', sans-serif;*/
+    font-family: serif;
+    background-color: dimgray;
+}
+
+#cv_container {
+    width: 1200px;
+    height: 1800px;
+    
+/*    margin: 5% auto;*/
+/*
+    width: 853px;
+    height: 1175px;
+*/
+/*    background-color: #eceff1;*/
+    background-color: white;
+    color: white;
+    padding-top: 0.25%;
+}
+
+div.#outer_div {
+    margin: 0%;
+    padding: 0%;
+}
+
+#personal_information {
+    width: 99%;
+    margin: 3% 2%;
+/*    background-color: deeppink;*/
+    background-color: #1a237e;
+    border-radius: 0%;
+    color: white;
+}
+
+#skills {
+    width: 99%;
+    margin: 2% 2%;
+	padding-bottom:3%;
+/*    background-color: orangered;*/
+    background-color: #1a237e;
+    border-radius: 0%;
+    color: white;
+}
+
+#education {
+    width: 99%;
+    margin: 3% 0%;
+/*    background-color: yellowgreen;*/
+    background-color: #1a237e;
+    border-radius: 0%;
+    color: white;
+}
+
+#projects {
+    width: 99%;
+    margin: 3% 0%;
+/*    background-color: blueviolet;*/
+    background-color: #1a237e;
+    border-radius: 0%;
+    color: white;
+}
+
+#extra {
+    width: 99%;
+    margin: 3% 0%;
+/*    background-color: darkgoldenrod;*/
+    background-color: #1a237e;
+    border-radius: 0%;
+    color: white;
+}
+
+#profile_name {
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 5%;
+}
+
+input[type="range"].mdl-slider.mdl-js-slider {
+    background-color: orange;
+    display:inline;
+    margin: 0%;
+    padding: 0%;
+}
+
+.profile_row {
+    margin:0% 1%;
+    padding:0%;
+    display:inline;
+}
+
+.profile_row > p {
+    margin:2.5%;
+    padding:0%;
+}
+
+.profile_row > p > span {
+    font-weight:bolder;
+    display:inline;
+    font-size:18px;
+}
+
+.profile_row > p > i {
+    font-weight: bolder;
+    font-size: 25px;
+    color: aquamarine;
+}
+
+.skill_row {
+    margin:1% 1% 2%;
+    padding-left:1%;
+    font-size:18px;
+}
+
+.skill_row > p {
+    color:white;
+    font-size:17px;
+    margin-top: 0.25%;
+    font-weight: bold;
+}
+
+.skill_row > span {
+    font-weight:bolder;
+    color:aquamarine;
+}
+
+.project_row {
+    margin-bottom:2%
+}
+
+.project_row > h5 {
+    margin:1% 5% 1% 6%;
+    padding:0%;
+    font-weight:500;
+    font-size: 22px;
+    color: aquamarine;
+}
+
+.project_row > p {
+    margin:1% 5% 1% 6%;
+    padding:0%;
+    font-weight:200;
+    font-size:18px;
+    text-align:justify;
+}
+
+.project_row > p > span {
+    color:orange;
+    font-weight:100;
+    font-size: 19px;
+}
+
+
+.extra_row {
+    margin:0%;
+    padding:0%
+}
+
+.extra_row > p {
+    margin:0% 5% 3% 4%;
+    padding:0%;
+    font-weight:bolder;   
+    font-size: 18px;
+    color: aquamarine;
+}

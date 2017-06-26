@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: aqua;
+}
+
+#cv_container {
+/*
+    width: 830px;
+    height: 1175px;
+*/
+    
+    width: 1200px;
+    height: 1700px;
+/*    margin:5%;*/
+    background-color: white;
+}
+
+img {
+    margin: 0px;
+}
+
+#side_bar {
+    background-color: #1a237e;
+    padding: 0px;
+    height: 100%;
+}
+
+.white_text {
+    color: white;
+}
+
+#name {
+    margin:2% auto 2% 28%; 
+    font-size: 22px;
+    
+}
+
+
+.sidebar_content {
+    margin: 0% 10%;
+    text-align: justify;
+    font-size: 10px;
+}
+
+p.skill_text {
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 1%;
+    font-size: 7px;
+}
+
+input[type="range"].mdl-slider.mdl-js-slider {
+    margin-top: 0%;
+    background-color: white;
+}
+
+h5,h6 {
+    font-weight: bold;
+}
+
+.white_text > p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+#contact > p {
+    text-align: left;
+}
+
+
+
+
+
+
+#summary >h6 {
+    font-size: 25px;
+}
+
+#summary >p {
+    font-size: 17px;
+}
+
+
+#contact > h6 {
+    font-size: 25px;
+}
+
+#contact > p {
+    font-size: 18px;
+}
+
+#technical_skills > h6 {
+    font-size: 25px;
+}
+
+#technical_skills > p {
+    font-size: 18px;
+    margin-top: 10%;
+}
+
+#nontechnical_skills > h6 {
+    font-size: 25px;
+}
+
+#nontechnical_skills > p {
+    font-size: 18px;
+    margin-top: 10%;
+}
+
